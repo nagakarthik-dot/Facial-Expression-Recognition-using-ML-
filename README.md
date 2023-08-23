@@ -1,5 +1,5 @@
 # Emotion recognition using facial expressions
-This project is 2020 summer project of brain and cognitive society ,Science and Technlogy council , **IIT Kanpur**. 
+
 As the name suggests it is meant for leveraging the computer with the ability of classifying seven basic emotions using the facial expressions of 
 humans.The seven basic emotions we're gonna classify are:
 
@@ -38,14 +38,8 @@ We have evaluated our model on three different cropping methods:
 Also we varied the neuron number of hidden dense layer as 0, 256, 512, 1024.
 And we performed a ten fold [cross validation](https://github.com/Av-hash/EmoRec/blob/master/CrossValidation.ipynb) on our model keeping the cropping method fixed (without background) but varying the neuron number.
 
-## Code
-The link to the whole assembled code is [here](https://github.com/Av-hash/EmoRec/blob/master/Facial_Expression_Recognition.ipynb).
 
-## How to run
-For running the model , just run the python script [facial_expression_recognition.py](https://github.com/Av-hash/EmoRec/blob/master/facial_expression_recognition.py)
 
-## Documentation
-The documentation of this project can be found [here](https://drive.google.com/file/d/1ixtQco-1SQW4hH6pwLHVACqwrIZqrYbP/view?usp=drivesdk).
 
 ## Results
 The results of various evaluation methods we used are illustrated in this table :
